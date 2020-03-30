@@ -8,12 +8,12 @@ The tests folder contain the testing script to test this module.
 How To Use This
 ---------------
 
-#Go to project folder Heap_Array
+1.Go to project folder Heap_Array
 
-#Run the project using below cammand
+2.Run the project using below cammand
 
 py main.py
 
-#Perform unit testing using below cammand
+3.Perform unit testing using below cammand
 
 py tests/heap_array_tests.py
