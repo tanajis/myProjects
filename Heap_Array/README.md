@@ -10,8 +10,10 @@ How To Use This
 
 #Go to project folder Heap_Array
 
-#Run the project using below cammand/n
+#Run the project using below cammand
+
 py main.py
 
-#run the test case/n
+#run the test case
+
 py tests/heap_array_tests.py
