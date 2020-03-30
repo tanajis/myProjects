@@ -22,7 +22,6 @@ class Heap:
     def hippify(self,arr:list):
         """
         This method push the all elenets in the list to Heap.
-        
         Parameter 
             arr:Array of the numbers to be pushed to heap.
         Return  
@@ -37,7 +36,6 @@ class Heap:
     def heapPush(self,v:int):
         """
         This method push given number to the heap.
-
         Parameter
             v: (int) A number to be added into the heap
         Return
@@ -70,10 +68,7 @@ class Heap:
     def heapPop(self):
         """
         This method pop the minimum number from the heap.
-        return integer.
-
         Parameter
-
         Return
             min_number : (int) 
         """
