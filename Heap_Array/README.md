@@ -8,10 +8,10 @@ The tests folder contain the testing script to test this module.
 How To Use This
 ---------------
 
-#go to project folder Heap_Array
+#Go to project folder Heap_Array
 
-#run the project
+#Run the project using below cammand/n
 py main.py
 
-#run the test case
+#run the test case/n
 py tests/heap_array_tests.py
