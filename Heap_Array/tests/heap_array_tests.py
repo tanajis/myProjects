@@ -1,5 +1,5 @@
-#=============================================================================================
 #!/usr/bin/env python
+#=============================================================================================
 # Title           :heap_array_tests.py
 # Description     :This script perform unit testing on heap_array module.
 # Author          :Tanaji Sutar
