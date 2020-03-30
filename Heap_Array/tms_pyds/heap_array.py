@@ -1,3 +1,13 @@
+#=============================================================================================
+#!/usr/bin/env python
+# Title           :heap_array.py
+# Description     :This is module contains array implementation of Heap data strcuture.
+# Author          :Tanaji Sutar
+# Date            :2020-Mar-30
+# python_version  :2.7/3
+#============================================================================================
+
+
 import math
 import copy
 
@@ -12,8 +22,11 @@ class Heap:
     def hippify(self,arr:list):
         """
         This method push the all elenets in the list to Heap.
-        param : arr
-        return Heap list
+        
+        Parameter 
+            arr:Array of the numbers to be pushed to heap.
+        Return  
+            Heap list
         """
         for number in arr:
 
@@ -23,10 +36,14 @@ class Heap:
 
     def heapPush(self,v:int):
         """
-        This method push the given number in to the heap.
-        param : arr
-        return heap list
+        This method push given number to the heap.
+
+        Parameter
+            v: (int) A number to be added into the heap
+        Return
+            True if successfully added to the heap else return False
         """
+
         # Add at the end 
         self.arr.append(v)
         if len(self.arr) == 1:
@@ -47,11 +64,18 @@ class Heap:
                     break
 
                 pos = parent_index
-    
+
+        return True
+
     def heapPop(self):
         """
         This method pop the minimum number from the heap.
-        return integer
+        return integer.
+
+        Parameter
+
+        Return
+            min_number : (int) 
         """
 
         #when pop, always remove from top of the three(first element in array)
