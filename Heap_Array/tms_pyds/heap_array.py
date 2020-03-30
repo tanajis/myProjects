@@ -1,7 +1,7 @@
 #=============================================================================================
 #!/usr/bin/env python
 # Title           :heap_array.py
-# Description     :This is module contains array implementation of Heap data strcuture.
+# Description     :This module contains array implementation of Heap data strcuture.
 # Author          :Tanaji Sutar
 # Date            :2020-Mar-30
 # python_version  :2.7/3
