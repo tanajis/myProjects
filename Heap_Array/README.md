@@ -14,6 +14,6 @@ How To Use This
 
 py main.py
 
-#run the test case
+#Perform unit testing using below cammand
 
 py tests/heap_array_tests.py
