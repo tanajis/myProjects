@@ -17,3 +17,19 @@ py main.py
 3.Perform unit testing using below cammand
 
 py tests/heap_array_tests.py
+
+
+# cammand line interface
+------------------------
+
+# Run all the tests
+py -m unittest tests/heap_array_tests.py
+
+python -m unittest tests.heap_array_tests.TestHeapArray
+
+# Run specific test method
+# Give testfolder.moduleName.TestClassname.TestMethod
+py -m unittest tests.heap_array_tests.TestHeapArray.test_hippify
+
+
+# Find more at :https://docs.python.org/3/library/unittest.html
