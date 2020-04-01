@@ -22,16 +22,16 @@ py tests/heap_array_tests.py
 # cammand line interface
 ------------------------
 
-Run all the tests
+1.Run all the tests
 
 py -m unittest tests/heap_array_tests.py
 
 py -m unittest tests.heap_array_tests.TestHeapArray
 
-Run specific test method
-Give testfolder.moduleName.TestClassname.TestMethod
+2.Run specific test method
+  syntax : py -m  testfolder.moduleName.TestClassname.TestMethod
 
 py -m unittest tests.heap_array_tests.TestHeapArray.test_hippify
 
 
-# Find more at :https://docs.python.org/3/library/unittest.html
+Find more at :https://docs.python.org/3/library/unittest.html
