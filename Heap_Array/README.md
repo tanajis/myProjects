@@ -19,8 +19,8 @@ py main.py
 py tests/heap_array_tests.py
 
 
-# cammand line interface
-------------------------
+cammand line interface
+----------------------
 
 1.Run all the tests
 
