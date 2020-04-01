@@ -5,7 +5,7 @@ This is a demontration of unit testing using unitest module of python.
 It consist of array implementation of heap data structure.
 The tests folder contain the testing script to test this module.
 
-How To Use This
+How To Use This ?
 ---------------
 
 1.Go to project folder Heap_Array
@@ -19,7 +19,7 @@ py main.py
 py tests/heap_array_tests.py
 
 
-cammand line interface
+Cammand line interface
 ----------------------
 
 1.Run all the tests
